@@ -1,0 +1,5 @@
+# /etc/apt/sources.list
+deb https://mirrors.aliyun.com/ubuntu-ports/ focal main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu-ports/ focal-updates main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu-ports/ focal-backports main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu-ports/ focal-security main restricted universe multiverse
