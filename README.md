@@ -46,7 +46,12 @@ video=HDMI-A-1:1920x1080@60D
 ```
 
 ## REF
-https://www.raspberrypi.com/documentation/computers/configuration.html
-https://www.raspbian.org/RaspbianMirrors
-https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/
-(Headless Raspberry Pi)
+
+* https://www.raspberrypi.com/documentation/computers/configuration.html
+* https://www.raspbian.org/RaspbianMirrors
+* https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/
+
+// Raspberry Pi Headless Setup
+
+* https://desertbot.io/blog/headless-raspberry-pi-4-ssh-wifi-setup
+* https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/
