@@ -22,7 +22,7 @@ Defaults env_keep+="http_proxy https_proxy no_proxy"
 
 ## Issues
 
-* Can You Check from Raspbian?
+* Can You Check board version from Raspbian?
 
 ```
 dmesg
