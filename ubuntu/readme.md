@@ -1,10 +1,9 @@
 # Ubuntu 20.04 for Raspberry Pi Install
 
-## default user
-
-  pi:raspberry
-
 ```
+// default user
+pi:raspberry
+
 // Install Desktop
 sudo apt install ubuntu-desktop|xubuntu-desktop
 
