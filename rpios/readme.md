@@ -1,4 +1,4 @@
-# RaspberryOS Install
+# Raspberry Pi OS Install
 
 ## default user
 

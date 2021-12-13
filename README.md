@@ -1,4 +1,4 @@
-# Raspberry 4B OS Install
+# Raspberry Pi 4 Model B Install
 
 ## Common commond list
 
