@@ -1,0 +1,4 @@
+# Fixed vncserver is very slow without display.
+# https://forums.raspberrypi.com/viewtopic.php?t=323294
+
+#dtoverlay=vc4-kms-v3d

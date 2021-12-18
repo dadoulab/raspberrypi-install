@@ -20,3 +20,4 @@ Cargo.lock
 # Ignore all config files
 *.env
 .envrc
+**/*.privacy/

@@ -1,0 +1,26 @@
+# Issues
+
+* Raspberry Pi maker can not download os?
+
+* Can You check board version from Raspbian?
+
+```
+dmesg
+rev 1.2?
+
+cat /proc/cpuinfo
+Revision: b03112(Rev 1.2 board)
+Revision: b03111(Rev 1.1 board)
+```
+
+* Bullseye vncserver is very slow without display?
+
+https://forums.raspberrypi.com/viewtopic.php?t=323294
+
+```
+vim /boot/config.txt
+#dtoverlay=vc4-kms-v3d
+
+vim /boot/cmdline.txt
+video=HDMI-A-1:1920x1080@60D
+```

@@ -3,6 +3,15 @@
 ## Common commond list
 
 ```
+sytem report
+    - storage
+        - RPi
+
+
+diskutil list
+diskutil info -all
+
+
 sudo raspi-config
 sudo apt-get install dnsutils net-tools wget curl
 
@@ -20,30 +29,16 @@ sudo visudo
 Defaults env_keep+="http_proxy https_proxy no_proxy"
 ```
 
-## Issues
+# confirm rpi init ip
+nmap -sP 192.168.31.0/24
+sudo nmap -sS 192.168.31.108
+arp -a
 
-* Can You check board version from Raspbian?
 
-```
-dmesg
-rev 1.2?
+# macos vnc client
+cd /System/Library/CoreServices/Applications/
+open Screen\ Sharing.app
 
-cat /proc/cpuinfo
-Revision: b03112(Rev 1.2 board)
-Revision: b03111(Rev 1.1 board)
-```
-
-* Bullseye vncserver is very slow without display?
-
-https://forums.raspberrypi.com/viewtopic.php?t=323294
-
-```
-vim /boot/config.txt
-#dtoverlay=vc4-kms-v3d
-
-vim /boot/cmdline.txt
-video=HDMI-A-1:1920x1080@60D
-```
 
 ## REF
 
